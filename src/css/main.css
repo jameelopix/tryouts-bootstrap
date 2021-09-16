@@ -1,0 +1,89 @@
+/* Header Top Banner */
+.header-top-banner {
+  background-color: #04925c;
+}
+
+.header-top-banner p {
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.header-top-banner p .coupon {
+  color: yellow;
+}
+
+#header-navbar.sticky {
+  position: fixed !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 2;
+  will-change: opacity;
+  transition-property: opacity;
+}
+
+/* Body Section Main content */
+.main-content {
+  z-index: 1;
+  margin-bottom: 360px;
+  position: relative;
+  background-color: white;
+}
+
+/* Footer Section */
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #efefef;
+  padding-bottom: 20px;
+}
+
+#footer-top {
+  padding: 10px;
+}
+
+/* Header Logo */
+.header-logo {
+  /* background-color: #df4103; */
+  min-height: 100px;
+}
+
+/* Common Definition */
+.flex-center {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* flex demo */
+.flexdemo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexdemo .item {
+  flex: 1;
+  background-color: #04925c;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  transition: opacity 0.4s ease-in-out, flex 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.block > span {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.flexdemo .item.expand-item {
+  flex: 2;
+}
+
+.flexdemo .item.shrunk-item {
+  opacity: 0.6;
+}

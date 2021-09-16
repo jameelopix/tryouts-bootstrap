@@ -1,0 +1,23 @@
+{
+  "name": "tryouts-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameelopix/tryouts-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameelopix/tryouts-bootstrap/issues"
+  },
+  "homepage": "https://github.com/jameelopix/tryouts-bootstrap#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2"
+  }
+}
